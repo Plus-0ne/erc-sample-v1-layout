@@ -1,0 +1,386 @@
+/**
+ * *********************************************************************
+ */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: century gothic;
+}
+body
+{
+    background-image: url('../assets/img/1.jpg');
+    background-position: center;
+    background-size: cover;
+    
+    background-attachment: fixed;
+    margin: 0px;
+}
+* {
+    box-sizing: border-box;
+}
+
+.lining-
+{
+    width: 100%;
+    border-top: 1px solid gray;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.line-spacing
+{
+    float: left;
+    border-top: 1px solid transparent;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/**
+ * *********************************************************************
+ */
+.header
+{
+
+    font-family: century gothic;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-bottom: 8px;
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header img
+{
+    opacity: 1;
+}
+.er-links
+{
+    padding-top: 30px;
+}
+.header img:hover
+{
+    opacity: 0.9;
+}
+.header ul
+{
+    padding-top: 35px;
+}
+.header li
+{
+
+    
+    list-style: none;
+    display: inline-block;
+    
+    font-size: 16px;
+    
+    width: 130px;
+    color: white;
+    text-align: center;
+
+}
+.nav-container a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-container li:hover
+{
+    background-color: #ff9933;
+    
+}
+
+.slideshow , .updates , .aboutus , .programs , .contact-us
+{
+    padding: 15px;
+    text-align: center;
+}
+.aboutus-container
+{
+    padding-bottom: 20px;
+    background-image: url('../assets/img/text-back.png');
+}
+
+.footer
+{
+
+    color: white;
+    background-color: black;
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+}
+
+.footer div
+{
+   
+    font-size: 16px;
+}
+.footer a
+{
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover
+{
+    text-decoration: underline;
+    color: white;
+
+}
+
+.about-us-text
+{
+    padding: 7px;
+    margin-top: 32px;
+    font-size: 17px;
+    position: absolute;
+    top: 0px; 
+    width: 100%; 
+    color: white;
+}
+.aboutus-back
+{
+    padding: 7px;
+    margin-top: 32px;
+    font-size: 17px;
+    position: absolute;
+    top: 0px;
+    background-color: #d4d4d4;
+    width: 100%;
+    opacity: 0.5;
+}
+.modal-content img
+{
+    
+    width: 100%;
+}
+.modal-content
+{
+    width: 100%;
+}
+.modal-dialog
+{
+    width: 60%;
+}
+
+.ielts-container
+{
+    padding: 2%;
+    color: white;
+
+}
+
+.ielts-content-text
+{
+   
+    padding: 10px;
+}
+
+.ielts-content
+{
+
+    
+}
+.ielts-image
+{
+    width: 100%;
+
+}
+.toefl-container
+{
+
+    padding: 2%;
+    color: white;   
+}
+
+.toefl-content-text
+{
+    
+    padding: 10px;
+}
+.toefl-content
+{
+
+  
+}
+.toefl-image
+{
+    width: 100%;
+}
+
+.let-other-container
+{
+    padding: 2%;
+
+    color: white;   
+}
+
+.let-other-content-text
+{
+    
+    padding: 10px;
+}
+.let-other-content
+{
+
+    
+}
+.let-other-image
+{
+    width: 100%;
+}
+.nua-container
+{
+    background-image: url('../assets/img/text-back.png');
+}
+.left-details
+{
+    color: white;
+    padding: 2%;
+
+}
+.center-details
+{
+    color: white;
+    padding: 2%;
+}
+.right-details
+{
+    color: white;
+    padding: 2%;
+}
+.activities-date-time
+{
+    float: left;
+}
+.activities-details
+{
+    width: 100%;
+    float: left;
+    font-style: oblique; 
+    font-size: 18px;
+
+}
+
+.iframe-video-
+{
+    width: 100%;
+}
+.programs-container
+{
+    background-image: url('../assets/img/text-back.png');
+}
+
+.button-activities
+{
+    border-radius: 5px;
+    float: left;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.button-activities:hover
+{
+    transition: 0.08s;
+    background-color: #f2f2f2;
+    color: black;
+}
+.m-and-v
+{
+    background-image: url('../assets/img/text-back.png');
+    padding: 2%;
+    width: 100%;
+    color: white;
+}
+.mission-heading
+{
+    font-size: 25px;
+    font-family: century gothic;
+    
+}
+.mission-text
+{
+    text-align: justify;
+    
+    font-family: century gothic;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.vision-heading
+{
+    font-size: 25px;
+    font-family: century gothic;
+}
+.vision-text
+{
+    text-align: justify;
+    
+    font-family: century gothic;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.aboutus-m
+{
+    margin-top: 1%;
+}
+
+.about-us-paragraph
+{
+    font-family: century gothic;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: justify;
+    
+    font-size: 14px;
+
+
+}
+
+.mission-design
+{
+    background-image: url('../assets/img/text-back.png');
+    padding: 2%;
+    height: 300px;
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.vision-design
+{
+    background-image: url('../assets/img/text-back.png');
+    padding: 2%;
+    height: 300px;
+    color: white;
+    padding-left: 150px;
+    padding-right: 150px;
+
+}
